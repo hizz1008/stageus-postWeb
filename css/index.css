@@ -1,0 +1,47 @@
+/* reset */
+a{
+  text-decoration: none;
+  color: initial;
+}
+/* /reset */
+
+.postWebH1 {
+  width: 100%;
+
+  margin-bottom: 50px;
+  text-align: center;
+
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.tableSection{
+  width: 100%;
+}
+.table {
+  border-collapse: separate;
+  width: 100%;
+}
+.headerCell {
+  padding: 8px 2px 8px 8px;
+  text-align: left;
+  border-top: 1px solid white;
+  margin: 10px 0;
+  border-bottom: 1px solid whitesmoke;
+  background-color: rgb(106, 106, 106);
+}
+.cell {
+  border-bottom: 1px solid whitesmoke;
+  padding: 10px 0 10px 8px;
+}
+
+.contentForm{
+  width: 100%;
+  margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  .headerCell{
+    font-size: 15px;
+  }
+}

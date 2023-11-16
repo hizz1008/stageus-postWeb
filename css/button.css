@@ -1,0 +1,25 @@
+.btnStyle{
+  padding: 10px 20px;
+  
+  background-color: rgb(106, 106, 106);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.buleBtn{
+  background-color: #0858E2;
+}
+
+.btnMarginRight{
+  margin-right: 20px;
+}
+.btnMarginLeft{
+  margin-left: 20px;
+}
+@media (max-width:500px) {
+  .btnStyle{
+    padding: 5px;
+    font-size: 14px;
+  }
+}

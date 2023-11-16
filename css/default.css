@@ -1,0 +1,24 @@
+/* reset */
+body {
+  background-color: #202124;
+  color: white;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  font-size: 16px;
+}
+footer {
+  width: 100%;
+  height: 200px;
+}
